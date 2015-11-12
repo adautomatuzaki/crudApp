@@ -1,0 +1,15 @@
+<ion-view view-title="Adicionar Aluno">
+  <ion-content>
+    <div class="list">
+        <label class="item item-input">
+            <input type="text" placeholder="Nome" value="{{chat.name}}">
+        </label>
+        <label class="item item-input">
+            <input type="text" placeholder="RA" value="{{chat.ra}}">
+        </label>
+    </div>
+    <button class="button button-stable" ng-click="save({{chat}})">
+      Salvar
+    </button>
+  </ion-content>
+</ion-view>
